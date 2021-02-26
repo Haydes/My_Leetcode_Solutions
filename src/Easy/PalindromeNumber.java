@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 /**
  * 9. Palindrome Number
+ * 
  * Determine whether an integer is a palindrome. An integer is a palindrome when
  * it reads the same backward as forward. Coud you solve it without converting
  * the integer to a string?
@@ -19,14 +20,14 @@ public class PalindromeNumber {
 		} else {
 			System.out.println("the num is not Palindrome!");
 		}
-		
+
 	}
 
 	public static boolean isPalindrome(int x) {
 		if (x < 0) {
 			return false;
 		}
-		
+
 		int val = 0;
 		int xx = x;
 		while (xx != 0) {
